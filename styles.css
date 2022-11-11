@@ -1,16 +1,29 @@
 body {
+    font-family: sans-serif; 
     display: flex;
     flex-direction: column;
 }
 
+button {
+    background-color: #3882F6;
+}
+
 .header {
+    background-color: #1F2937;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.header h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
 .header ul {
+    color: #E5E7EB;
+    font-size: 18px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -18,8 +31,25 @@ body {
 }
 
 .content-hero {
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
+}
+
+.hero-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-image-placeholder {
+    background-color: #686868;
+    color: #E5E7EB;
 }
 
 .content-random-info {
@@ -28,12 +58,19 @@ body {
     align-items: center;
 }
 
+.random-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 .random-cards {
     display: flex;
     gap: 1.5em;
 }
 
 .content-testimonial {
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +83,15 @@ body {
     margin-right: 6rem;
 }
 
+.testimonial-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
 .testimonial-attribution {
+    color: #1F2937;
+    font-weight: bold;
     align-self: flex-end;
 }
 
@@ -57,6 +102,7 @@ body {
 }
 
 .cta-container {
+    background-color: #3882F6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +114,8 @@ body {
 }
 
 .footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
     width: 100%;
     bottom: 0;
     position: fixed;
