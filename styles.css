@@ -73,7 +73,12 @@ button {
 
 .random-cards {
     display: flex;
+    justify-content: center;
     gap: 1.5em;
+}
+
+.card {
+    max-width: 13%;
 }
 
 .content-testimonial {
