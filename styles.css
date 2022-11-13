@@ -15,6 +15,7 @@ button {
     
     display: flex;
     flex-direction: row;
+    flex: auto;
     justify-content: space-between;
     padding-right: 15%;
     padding-left: 15%;
@@ -37,6 +38,7 @@ button {
 .content-hero {
     background-color: #1F2937;
     display: flex;
+    flex: auto;
     justify-content: center;
     padding-right: 15%;
     padding-left: 15%;
@@ -61,6 +63,7 @@ button {
 .content-random-info {
     display: flex;
     flex-direction: column;
+    flex: auto;
     align-items: center;
     padding-right: 15%;
     padding-left: 15%;
@@ -85,6 +88,7 @@ button {
 .content-testimonial {
     background-color: #E5E7EB;
     display: flex;
+    flex: auto;
     justify-content: center;
     align-items: center;
     padding-right: 15%;
@@ -112,6 +116,7 @@ button {
 
 .content-call-to-action {
     display: flex;
+    flex: auto;
     justify-content: center;
     align-items: center;
     padding-right: 15%;
