@@ -2,6 +2,7 @@ body {
     font-family: sans-serif; 
     display: flex;
     flex-direction: column;
+    height: 100vh;
     margin: 0;
 }
 
@@ -133,8 +134,7 @@ button {
     background-color: #1F2937;
     color: #E5E7EB;
     width: 100%;
-    bottom: 0;
-    position: fixed;
+    margin-top: auto;
     display: flex;
     justify-content: center;
     align-items: center;
