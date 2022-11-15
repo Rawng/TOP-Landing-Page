@@ -48,6 +48,8 @@ button {
 
 .hero-left,
 .hero-right {
+    display: flex;
+    flex-direction: column;
     flex-basis: 50%;
 }
 
@@ -65,6 +67,7 @@ button {
 .hero-image-placeholder {
     background-color: #686868;
     color: #E5E7EB;
+    flex-basis: 100%;
 }
 
 .content-random-info {
