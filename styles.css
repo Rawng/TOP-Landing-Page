@@ -58,6 +58,10 @@ button {
     flex-basis: 50%;
 }
 
+.hero-left {
+    padding-right: 3rem;
+}
+
 .hero-title {
     color: #F9FAF8;
     font-size: 48px;
