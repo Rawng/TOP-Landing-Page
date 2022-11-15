@@ -87,6 +87,11 @@ button {
     max-width: 13%;
 }
 
+.card-image {
+    padding: 3rem;
+    border: 2px solid #3882F6;
+}
+
 .content-testimonial {
     background-color: #E5E7EB;
     display: flex;
