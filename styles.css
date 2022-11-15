@@ -75,9 +75,12 @@ button {
 }
 
 .hero-image-placeholder {
+    display: flex;
     background-color: #686868;
     color: #E5E7EB;
     flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-random-info {
