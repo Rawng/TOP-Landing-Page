@@ -74,6 +74,12 @@ button {
     font-size: 18px;
 }
 
+.hero-signup {
+    border: 0;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
 .hero-image-placeholder {
     display: flex;
     background-color: #686868;
@@ -149,6 +155,7 @@ button {
     align-items: center;
     padding-right: 15%;
     padding-left: 15%;
+    color: #E5E7EB;
 }
 
 .cta-container {
@@ -158,6 +165,11 @@ button {
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.call-to-action-signup {
+    border-color: #E5E7EB;
+    color: #E5E7EB;
 }
 
 .cta-left {
