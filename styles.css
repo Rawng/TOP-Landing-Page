@@ -60,6 +60,7 @@ button {
 
 .hero-left {
     padding-right: 3rem;
+    align-items: flex-start;
 }
 
 .hero-title {
